@@ -1,17 +1,26 @@
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <div><side-bar-menu /></div>>
+
+
+
+
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SideBarMenu from "@/components/SideBarMenu";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SideBarMenu
   }
 }
 </script>
